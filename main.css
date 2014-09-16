@@ -1,0 +1,217 @@
+/* Header & Nav */
+
+body {
+	font-family: "museo-sans", sans-serif; 
+}
+
+header {
+	background: url("images/cc6.jpg") top center no-repeat;
+	height: 760px;
+	width:100%;
+	background-size: cover;
+}
+
+nav {
+	text-align: right;
+	background-color: #2980B9;
+	width: 100%;
+	height: 100px;
+	opacity: 0.7;
+}
+
+nav ul li img {
+	vertical-align: middle;
+}
+
+nav ul li {
+	display:inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.75em 0.5em;
+	color:#fff;
+}
+
+.logo {
+	padding-top: 2em;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 3.5em;
+	color:#fff;
+	margin-top: 240px;
+	letter-spacing: 0.09em;
+	margin-bottom: 0px;
+}
+
+header p {
+	text-align: center;
+	font-size: 1.7em;
+	color:#fff;
+	letter-spacing: 0.08em;
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	margin-top: 0px;
+	padding-top: 5px;
+}
+
+header button {
+	width:230px;
+	height: 61px;
+	background-color: #F1C40F;
+	opacity: 0.9;
+	color:#fff;
+	border:none;
+	font-size: 1.5em;
+}
+
+#btn {
+	text-align: center;
+}
+
+/* Search Bar */
+
+.search {
+	width:100%;
+	height:100px;
+	background-color:#2C3E50;
+}
+
+.search input {
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 25px;
+	margin-right: 0.5px;
+}
+
+.search button {
+	height: 42px;
+	background-color: #F1C40F;
+	color:#fff;
+	border:none;
+	font-size: 1.3em;
+	margin-top: 25px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-left: 10px;
+}
+
+/* Options */
+
+.options h2 {
+	text-align: center;
+	color:#34495E;
+	font-size: 2em;
+	margin: 75px 0;
+}
+
+.options #careers {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.options #careers img {
+	margin-bottom: 20px;
+}
+
+.video {
+	background: url("images/pattern_02.png") top center no-repeat;
+	height: 760px;
+	width:100%;
+	background-size: cover;
+	margin-top: 100px;
+}
+
+.video h1 {
+	text-align: center;
+	font-size: 3.5em;
+	color:#fff;
+	letter-spacing: 0.09em;
+	margin-bottom: 0px;
+	padding-top: 240px;
+}
+
+.video p {
+	text-align: center;
+	font-size: 2.1em;
+	color:#fff;
+	letter-spacing: 0.08em;
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	margin-top: 0px;
+	padding-top: 5px;
+}
+
+.video ul li{
+	display: inline-block;
+	padding: 0 200px;
+}
+
+.video #icons {
+	text-align: center;
+}
+
+/* Features */
+
+.features h2 {
+	text-align: center;
+	color:#34495E;
+	font-size: 2em;
+	margin: 75px 0;
+}
+
+.features ul li {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 10px;
+	margin-bottom: 50px;
+}
+
+.table {
+	display: table; 
+	margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+	width:100%;;
+	background-color: #34495E;
+}
+
+footer .logo {
+	margin-top: 25px;
+}
+
+footer .social ul li{
+	display:inline-block;
+	list-style-type: none;
+	float:right;
+	padding: 0 10px;
+	margin-top: 25px;
+}
+
+footer .ft-nav ul{
+	list-style-type: none;
+	color:#fff;
+	padding-left: 2em; 
+	text-indent: -2em;
+	margin-top: 0px;
+}
+
+footer .ft-nav ul li{
+	font-size: 1em;
+	padding-bottom: 5px;
+}
+
+footer p {
+	color:#fff;
+}
+
